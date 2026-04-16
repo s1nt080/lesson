@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="HomeWork/HomeWork.csproj" Id="2ed48dd8-c9d9-4a2c-9788-16d807b2ad79" />
+  <Project Path="lesson/lesson.csproj" Id="a6875149-6dba-405b-80ca-0a6f5549d46e" />
+  <Project Path="test/test.csproj" Id="e0b7ffa1-6fa0-4748-abb5-9fe47ab0fd7b" />
+</Solution>
