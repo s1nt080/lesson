@@ -230,44 +230,6 @@ namespace HomeWork
                     Console.WriteLine();
                 }
             }
-            //#9 Заполнить массив с клавиатуры
-            Console.WriteLine("Введите кол-во ячеек в массиве");
-            int arraylen = int.Parse(Console.ReadLine());
-            Console.Clear();
-            int[] Array = new int[arraylen];
-            Console.WriteLine("кол-во ячеек в массиве " + Array.Length + "\nзаполните их");
-            for (int counter = 0; counter < Array.Length; counter++)
-            {
-                Array[counter] = int.Parse(Console.ReadLine());
-            }
-            for (int counter = 0; counter < Array.Length; counter++)
-            {
-                Console.WriteLine("Ячека массива # " + counter + " содержит в себе: " + Array[counter]);
-            }
-            //#9.1 Вывести массив в обратном порядке
-            for (int counter = arraylen - 1; counter < Array[arraylen - 1]; counter--)
-            {
-                Console.WriteLine(Array[counter]);
-            }
-            //9.2 Найти сумму чисел в массиве
-            int SumArray = 0;
-            for (int counter = 0; counter < Array.Length; counter++)
-            {
-                Array[counter] = int.Parse(Console.ReadLine());
-                SumArray = SumArray + Array[counter];
-            }
-            Console.WriteLine(SumArray);
-            //9.3 Найти наименьшее число в массиве
-            int MinNumArray = Array[0];
-            for (int counter = 0; counter < Array.Length; counter++)
-            {
-                if (Array[counter] < MinNumArray)
-                {
-                    MinNumArray = Array[counter];
-                }
-            }
-            Console.Clear();
-            Console.WriteLine(MinNumArray);
         }
     }
 }
